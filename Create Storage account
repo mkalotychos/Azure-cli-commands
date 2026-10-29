@@ -1,0 +1,8 @@
+az storage account create \
+  --name mystoragelab12345 \
+  --resource-group learning-azure-cli \
+  --location southafricanorth \
+  --sku Standard_LRS \
+  --kind StorageV2 \
+  --allow-blob-public-access false \
+  --output json
