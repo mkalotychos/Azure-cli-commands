@@ -1,3 +1,8 @@
+---- Create Resource Group---
+
+az group create --name learn-azure-cli --location southafricanorth
+
+
 ----Delete Resource Group---
 
 az group delete --name MyResourceGroup
